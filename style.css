@@ -197,3 +197,17 @@ p, li {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
+/* Limpieza total para el calendario */
+.post iframe {
+    display: block;
+    background: white;
+}
+
+/* Estilo final para el contenedor del calendario */
+.post div[style*="border"] {
+    border: none !important; /* Quitamos el borde simple del HTML */
+    border-left: 5px solid #F39C12 !important; /* Borde naranja como tus otros posts */
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
