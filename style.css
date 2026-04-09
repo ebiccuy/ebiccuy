@@ -1,39 +1,29 @@
-/* Importación de fuentes retro */
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Press+Start+2P&display=swap');
+/* 1. Importación Única de Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Press+Start+2P&family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600&family=Source+Code+Pro:wght@400;500&display=swap');
 
-/* Paleta y Reset */
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Courier Prime', monospace; }
+/* 2. Reset y Variables Básicas */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
 body { 
-    background-color: #FEF9E7; /* Crema suave otoñal */
+    background-color: #FEF9E7; 
     color: #2C3E50; 
+    font-family: 'Courier Prime', monospace;
+    line-height: 1.6;
 }
 
-/* =========================
-   TITULOS RETRO TECH
-========================= */
-h1, h2, h3 {
-    font-family: 'Orbitron', sans-serif;
-    letter-spacing: 1px;
-    color: white;
-}
+/* 3. Tipografía Global */
+h1, h2, h3 { font-family: 'Orbitron', sans-serif; }
+h4, h5, h6 { font-family: 'Rajdhani', sans-serif; font-weight: 600; }
+p, li, span { font-family: 'Source Code Pro', monospace; font-size: 0.95rem; }
 
-h4, h5, h6 {
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-}
-
-/* Texto de contenido tipo "código académico" */
-p, li {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 0.95rem;
-}
-
-/* Cabezal */
+/* 4. Cabezal (Hero Section) */
 .main-header {
     height: 300px;
-    /* Sugerencia: Imagen de un cerebro con circuitos integrados */
-    background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1600') center/cover;
-    position: relative;
+    background: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,37 +31,37 @@ p, li {
     text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
-/* Overlay en Verde Bosque con transparencia */
 .overlay { 
     text-align: center; 
     background: rgba(45, 90, 39, 0.6); 
     width: 100%; 
-    padding: 20px; 
+    padding: 2rem; 
 }
+
 .overlay h1 { 
-    font-family: 'Press Start 2P', cursive; /* Fuente retro para el título principal */
-    font-size: 1.8rem; 
+    font-family: 'Press Start 2P', cursive; 
+    font-size: clamp(1rem, 5vw, 1.8rem); /* Responsivo */
     text-transform: uppercase; 
+    margin-bottom: 10px;
 }
 
-/* =========================
-   NAVBAR
-========================= */
-.navbar ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 5px;
-}
-
+/* 5. Navbar */
 .navbar {
-	background-color: #2D5A27; /* Verde Bosque */
+    background-color: #2D5A27;
     padding: 10px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .navbar a {
@@ -80,64 +70,40 @@ p, li {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    display: block;
     transition: all 0.3s ease;
 }
 
-/* Efecto de resalte más vistoso (Estilo bloque sólido) */
 .navbar a:hover { 
-    background-color: #F39C12; /* Fondo naranja cálido */
-    color: #2D5A27; /* Texto en verde oscuro */
-    font-weight: bold;
+    background-color: #F39C12; 
+    color: #2D5A27; 
 }
-.navbar a.active { border-bottom: 5px solid #E67E22; color: #E67E22; }
 
-.dropdown {
-    position: relative;
+.navbar a.active { 
+    border-bottom: 4px solid #E67E22; 
+    color: #E67E22; 
 }
+
+/* Dropdown Corregido */
+.dropdown { position: relative; }
 
 .dropdown-content {
     display: none;
     position: absolute;
+    top: 100%; /* Corregido: antes estaba al 50% */
     left: 50%;
     transform: translateX(-50%);
-    background-color: #ffffff;
+    background-color: white;
     min-width: 180px;
     box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-    border-radius: 6px;
-    overflow: hidden;
+    border-radius: 0 0 6px 6px;
     z-index: 2000;
 }
 
-/* Contenedor expandido */
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Empuja la mitad superior hacia arriba */
-.dropdown-content::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    height: 50%;
-    width: 100%;
-}
-
-/* Ajuste visual */
-.dropdown-content {
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
+.dropdown:hover .dropdown-content { display: flex; flex-direction: column; }
 
 .dropdown-content a {
     color: #2D5A27;
-    padding: 10px 14px;
-    text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
     background: white;
-    transition: background 0.2s ease, color 0.2s ease;
 }
 
 .dropdown-content a:hover {
@@ -145,69 +111,80 @@ p, li {
     color: white;
 }
 
-/* =========================
-   POSTS
-========================= */
+/* 6. Layout y Posts */
+.container { 
+    max-width: 900px; 
+    margin: 20px auto; 
+    padding: 0 15px; 
+}
+
 .post {
     background: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 25px;
+    margin-bottom: 25px;
     border-radius: 8px;
     border-left: 5px solid #5243DB;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.post h3:first-of-type {
+.post h3 {
     background: linear-gradient(90deg, #2D5A27 10%, #F39C12 90%);
-    padding: 10px;
+    color: white;
+    padding: 12px;
     border-radius: 4px;
+    margin-bottom: 15px;
 }
 
-/* =========================
-   BOTONES
-========================= */
+/* 7. Elementos de Interacción */
 .btn-comment {
     display: inline-block;
     margin-top: 15px;
-    padding: 8px 15px;
+    padding: 10px 20px;
     background: #5243DB;
     color: white;
     text-decoration: none;
     border-radius: 4px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
+    transition: 0.3s;
 }
 
-.btn-comment:hover {
-    background: #9E43DB;
+.btn-comment:hover { background: #9E43DB; }
+
+.post-date {
+    display: block;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    margin-top: 10px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* 8. Footer */
 .main-footer {
     background: #5243DB;
     color: white;
-    padding: 30px;
-    margin-top: 40px;
+    padding: 40px 20px;
+    margin-top: 50px;
 }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Limpieza total para el calendario */
+/* 9. Especial: Calendario e iFrames */
 .post iframe {
     display: block;
     background: white;
+    border-radius: 4px;
 }
 
-/* Estilo final para el contenedor del calendario */
-.post div[style*="border"] {
-    border: none !important; /* Quitamos el borde simple del HTML */
-    border-left: 5px solid #F39C12 !important; /* Borde naranja como tus otros posts */
+/* Contenedor del calendario con borde naranja */
+.calendar-container {
+    border-left: 5px solid #F39C12 !important;
     background: #ffffff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-top: 15px;
 }
