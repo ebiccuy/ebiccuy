@@ -1,7 +1,7 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
     {
-        visible: false,
+        visible: true,
 		titulo: "Actividad 04: Unidades computacionales.",
         fecha: "13 de julio, 2026",
         contenido: `Observa atentamente la imagen.
