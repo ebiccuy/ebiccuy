@@ -7,7 +7,7 @@ const PUBLICACIONES = [
         contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
 		
 		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
-        imagen: "https://lh3.googleusercontent.com/d/1OtMSVBWVJxmcG8W4TLoqiDqCa55YsrtP",
+        imagen: "https://lh3.googleusercontent.com/d/1uIV4lXOUHL12ynUTJohSlK4vCL_3YniI",
 		youtubeId: "9hIQjrMHTv4",
         enlace: ""
 	},
