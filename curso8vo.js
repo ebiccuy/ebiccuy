@@ -2,6 +2,17 @@
 const PUBLICACIONES = [
     {
         visible: true,
+		titulo: "Actividad 05: Redes informáticas.",
+        fecha: "29 de julio, 2026",
+        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1OtMSVBWVJxmcG8W4TLoqiDqCa55YsrtP",
+		youtubeId: "9hIQjrMHTv4",
+        enlace: ""
+	},
+	{
+        visible: true,
 		titulo: "Prueba semestral.",
         fecha: "15 de julio, 2026",
         contenido: `<strong>Trabajo en DUPLA.</strong>
