@@ -1,6 +1,28 @@
 // curso8vo.js - Muro de actividades
 const PUBLICACIONES = [
     {
+        visible: false,
+		titulo: "Actividad 08: Algoritmos.",
+        fecha: "09 de setiembre, 2026",
+        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "2tlOmfoVKe0",
+        enlace: ""
+	},
+    {
+        visible: false,
+		titulo: "Actividad 06: HTML.",
+        fecha: "26 de agosto, 2026",
+        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1gLM9RmkRzAcv-tdyU6U7-vfVFk7V8J24",
+		youtubeId: "B4BRtV1w6Z4",
+        enlace: ""
+	},
+    {
         visible: true,
 		titulo: "Actividad 05: Redes informáticas.",
         fecha: "29 de julio, 2026",
@@ -9,7 +31,7 @@ const PUBLICACIONES = [
 		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1uIV4lXOUHL12ynUTJohSlK4vCL_3YniI",
 		youtubeId: "9hIQjrMHTv4",
-        enlace: ""
+        enlace: "https://www.youtube.com/watch?v=z7Q_NRGyKt4&pp=ygUWbWljcm9hcHJlbmRpemFqZSByZWRlc9IHCQnJCwGHKiGM7w%3D%3D"
 	},
 	{
         visible: true,
@@ -121,7 +143,7 @@ const PUBLICACIONES = [
 		
 		3. El Impacto de la Estética: ¿Cómo influye el diseño visual (colores, tipografía, orden) en nuestra primera impresión sobre la seriedad de un sitio? ¿Creen que un mal diseño siempre significa mala información?`,
         imagen: "https://lh3.googleusercontent.com/d/1ieOMiSJYHty-6tyfnFU8R9_xJU_8Yxj1",
-		youtubeId: "",
+		youtubeId: "UfYV_iIjUys",
         enlace: ""
     },
     {

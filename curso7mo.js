@@ -1,6 +1,35 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
 	{
+        visible: false,
+		titulo: "Clase 07: Seguridad en las redes.",
+        fecha: "26 de agosto, 2026",
+        contenido: `Mira el video, observa la imagen.
+		Resuelve la propuesta de trabajo.
+		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1xhh6zlog2MoOySw6fJfJouUS84oPdXIW",
+		youtubeId: "V5f7MIbUvgU",
+        enlace: "https://drive.google.com/file/d/1HaxvE5PrhwkNgDJ9OTZ5qu2BCwZ55jWF/view?usp=drive_link"
+	},
+	{
+        visible: false,
+		titulo: "Actividad 06: Netiquetas.",
+        fecha: "19 de agosto, 2026",
+        contenido: `Mira el video y elabora una presentación con las siguientes diapositivas.
+		- Título y autor.
+		- Índice.
+		- Reglas (una diapositiva para cada regla).
+		- Regla 11 (esta regla debes inventarla: ¿qué te parece que falta?)
+		Reflexión (utiliza esta diapositiva para escribir tu opinión).
+		
+		Debes incluir imágenes, aplicar color al fondo y transiciones.
+		
+		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "",
+		youtubeId: "Ap-SnjO8-hI",
+        enlace: ""
+	},
+	{
         visible: true,
 		titulo: "Actividad 05: Identidad Digital.",
         fecha: "12 de agosto, 2026",
@@ -193,7 +222,7 @@ const PUBLICACIONES = [
         fecha: "24 de marzo, 2026",
         contenido: `Copia la ficha en tu cuaderno y envíala por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
-		youtubeId: "",
+		youtubeId: "3F-kuNGlNco",
         enlace: "https://drive.google.com/file/d/1E3AwsaCQo0H5G8NQ24kxcRb7MBvtyHB9/view?usp=sharing"
     },
     {
@@ -207,7 +236,7 @@ const PUBLICACIONES = [
 		
 		Envía foto de tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "",
-		youtubeId: "",
+		youtubeId: "xL8C5CIxDts",
         enlace: ""
     },
     {
