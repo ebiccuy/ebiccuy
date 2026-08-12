@@ -1,5 +1,16 @@
 // curso7mo.js - Muro de actividades
 const PUBLICACIONES = [
+	{
+        visible: true,
+		titulo: "Actividad 05: Identidad Digital.",
+        fecha: "12 de agosto, 2026",
+        contenido: `Mira el video, observa la imagen.
+		Resuelve la propuesta de trabajo.
+		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/19YMk99hItjQgeahZJ0h7rvdmVqev1tSq",
+		youtubeId: "glK6XPN2-8c",
+        enlace: ""
+	},
     {
         visible: true,
 		titulo: "Actividad 04: Unidades computacionales.",
