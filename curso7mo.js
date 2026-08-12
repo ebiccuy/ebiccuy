@@ -48,7 +48,7 @@ const PUBLICACIONES = [
 		Copia y resuelve la actividad en tu cuaderno de clase.
 		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1MNafgwerCyQ2ZokW2Bo2OWZpgkMG41yX",
-		youtubeId: "",
+		youtubeId: "uPm5vRjaps0",
         enlace: ""
 	},
 	{
