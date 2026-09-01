@@ -2,24 +2,30 @@
 const PUBLICACIONES = [
     {
         visible: false,
-		titulo: "Actividad 08: Algoritmos.",
-        fecha: "09 de setiembre, 2026",
-        contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
-		
-		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
-        imagen: "",
-		youtubeId: "2tlOmfoVKe0",
-        enlace: ""
-	},
-    {
-        visible: false,
-		titulo: "Actividad 06: HTML.",
-        fecha: "26 de agosto, 2026",
+		titulo: "Actividad 07: HTML.",
+        fecha: "15 de setiembre, 2026",
         contenido: `Observa la imagen y en un documento de texto resuelve la propuesta.
 		
 		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
         imagen: "https://lh3.googleusercontent.com/d/1gLM9RmkRzAcv-tdyU6U7-vfVFk7V8J24",
 		youtubeId: "B4BRtV1w6Z4",
+        enlace: ""
+	},
+    {
+        visible: true,
+		titulo: "Actividad 06: Algoritmos.",
+        fecha: "02 de setiembre, 2026",
+        contenido: `Observa la imagen y en un documento de texto escribe el pseudocódigo y el diagrama de flujo para resolver los siguientes problemas:
+		
+		1. Cepillarte los dientes.
+		
+		2. Hacer un huevo frito.
+		
+		3. Ciclo de lavado de un lavarropas automático.
+		
+		Envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
+        imagen: "https://lh3.googleusercontent.com/d/1xbZS4FhDZ6dcxhOenndq_XhlC03kOnnW",
+		youtubeId: "2tlOmfoVKe0",
         enlace: ""
 	},
     {
