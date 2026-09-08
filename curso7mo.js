@@ -3,7 +3,7 @@ const PUBLICACIONES = [
 	{
         visible: false,
 		titulo: "Clase 07: Seguridad en las redes.",
-        fecha: "26 de agosto, 2026",
+        fecha: "14 de setiembre, 2026",
         contenido: `Mira el video, observa la imagen.
 		Resuelve la propuesta de trabajo.
 		Al finalizar , envía tu trabajo por correo electrónico a <strong>ebiccuy@gmail.com</strong>`,
@@ -12,9 +12,9 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1HaxvE5PrhwkNgDJ9OTZ5qu2BCwZ55jWF/view?usp=drive_link"
 	},
 	{
-        visible: false,
+        visible: True,
 		titulo: "Actividad 06: Netiquetas.",
-        fecha: "19 de agosto, 2026",
+        fecha: "07 de setiembre, 2026",
         contenido: `Mira el video y elabora una presentación con las siguientes diapositivas.
 		- Título y autor.
 		- Índice.
