@@ -12,7 +12,7 @@ const PUBLICACIONES = [
         enlace: "https://drive.google.com/file/d/1HaxvE5PrhwkNgDJ9OTZ5qu2BCwZ55jWF/view?usp=drive_link"
 	},
 	{
-        visible: True,
+        visible: true,
 		titulo: "Actividad 06: Netiquetas.",
         fecha: "07 de setiembre, 2026",
         contenido: `Mira el video y elabora una presentación con las siguientes diapositivas.
